@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container"> 
+<h2>Employee Management System</h2> 
+<input type="text" id="name" placeholder="Employee Name"> 
+<input type="text" id="id" placeholder="Employee ID"> 
+<input type="number" id="salary" placeholder="Salary"> 
+<input type="text" id="dept" placeholder="Department"> 
+<br> 
+<button onclick="addEmployee()">Add Employee</button> 
+<button onclick="displayEmployees()">Display All</button> 
+<button onclick="filterSalary()">Salary > 50000</button> 
+<button onclick="totalSalary()">Total Salary</button> 
+<button onclick="averageSalary()">Average Salary</button> 
+<button onclick="countDepartment()">Count Department</button> 
+<div id="result"></div> 
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
